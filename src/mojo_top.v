@@ -14,7 +14,7 @@ module mojo_top(
     input spi_sck,
     // AVR ADC channel select
     output [3:0] spi_channel,
-    // Serial conenctions
+    // Serial connections
     input avr_tx, // AVR Tx => FPGA Rx
     output avr_rx, // AVR Rx => FPGA Tx
     input avr_rx_busy // AVR Rx buffer full

@@ -6,7 +6,7 @@ module avr_interface #(
     input rst,
 
     // cclk, or configuration clock is used when the FPGA is begin configured.
-    // The AVR will hold cclk high when it has finished initalizing.
+    // The AVR will hold cclk high when it has finished initializing.
     // It is important not to drive the lines connecting to the AVR
     // until cclk is high for a short period of time to avoid contention.
     input cclk,
