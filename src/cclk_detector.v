@@ -7,7 +7,7 @@ module cclk_detector #(
     output ready
 );
 
-    parameter CTR_SIZE = $clog2(CLK_RATE/100000);
+    parameter CTR_SIZE = $clog2(CLK_RATE/50000);
 
     reg [CTR_SIZE-1:0] ctr_d, ctr_q;
     reg ready_d, ready_q;
