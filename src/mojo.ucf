@@ -3,30 +3,30 @@ NET "clk" TNM_NET = clk;
 TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
 
 # PlanAhead Generated physical constraints 
-NET "clk" LOC = P56;
-NET "rst_n" LOC = P38;
+NET "clk" LOC = P56 | IOSTANDARD = LVCMOS33;
+NET "rst_n" LOC = P38 | IOSTANDARD = LVCMOS33;
 
-NET "cclk" LOC = P70;
+NET "cclk" LOC = P70 | IOSTANDARD = LVCMOS33;
 
-NET "led<0>" LOC = P134;
-NET "led<1>" LOC = P133;
-NET "led<2>" LOC = P132;
-NET "led<3>" LOC = P131;
-NET "led<4>" LOC = P127;
-NET "led<5>" LOC = P126;
-NET "led<6>" LOC = P124;
-NET "led<7>" LOC = P123;
+NET "led<0>" LOC = P134 | IOSTANDARD = LVCMOS33;
+NET "led<1>" LOC = P133 | IOSTANDARD = LVCMOS33;
+NET "led<2>" LOC = P132 | IOSTANDARD = LVCMOS33;
+NET "led<3>" LOC = P131 | IOSTANDARD = LVCMOS33;
+NET "led<4>" LOC = P127 | IOSTANDARD = LVCMOS33;
+NET "led<5>" LOC = P126 | IOSTANDARD = LVCMOS33;
+NET "led<6>" LOC = P124 | IOSTANDARD = LVCMOS33;
+NET "led<7>" LOC = P123 | IOSTANDARD = LVCMOS33;
 
-NET "spi_mosi" LOC = P44;
-NET "spi_miso" LOC = P45;
-NET "spi_ss" LOC = P48;
-NET "spi_sck" LOC = P43;
-NET "spi_channel<0>" LOC = P46;
-NET "spi_channel<1>" LOC = P61;
-NET "spi_channel<2>" LOC = P62;
-NET "spi_channel<3>" LOC = P65;
+NET "spi_mosi" LOC = P44 | IOSTANDARD = LVCMOS33;
+NET "spi_miso" LOC = P45 | IOSTANDARD = LVCMOS33;
+NET "spi_ss" LOC = P48 | IOSTANDARD = LVCMOS33;
+NET "spi_sck" LOC = P43 | IOSTANDARD = LVCMOS33;
+NET "spi_channel<0>" LOC = P46 | IOSTANDARD = LVCMOS33;
+NET "spi_channel<1>" LOC = P61 | IOSTANDARD = LVCMOS33;
+NET "spi_channel<2>" LOC = P62 | IOSTANDARD = LVCMOS33;
+NET "spi_channel<3>" LOC = P65 | IOSTANDARD = LVCMOS33;
 
-NET "avr_tx" LOC = P55;
-NET "avr_rx" LOC = P59;
-NET "avr_rx_busy" LOC = P39;
+NET "avr_tx" LOC = P55 | IOSTANDARD = LVCMOS33;
+NET "avr_rx" LOC = P59 | IOSTANDARD = LVCMOS33;
+NET "avr_rx_busy" LOC = P39 | IOSTANDARD = LVCMOS33;
 
